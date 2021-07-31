@@ -65,6 +65,7 @@ nav ul li a{
 
 .home{
     border-bottom: 2px solid white;
+    border-width: 4px;
 }
 
 .header-text-xl{
@@ -76,7 +77,6 @@ nav ul li a{
     text-transform: uppercase;
     color: whitesmoke;
     padding-left: 10px;
-    /* border-left: 6px solid rgb(38, 97, 223); */
 }
 
 .sub-section-flex-container{
