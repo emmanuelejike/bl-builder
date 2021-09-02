@@ -196,7 +196,7 @@ main{
 .main-container{
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .image{
@@ -315,4 +315,81 @@ address{
 .contact-icon a i{
     color: white;
     padding: 0px 7px;
+}
+
+@media screen and (max-width: 687px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 5px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .main-container-highlight-content{
+        border-bottom: 1px solid gray;
+        margin: 10x;
+    }
+
+    .news-link-content{
+        padding: 20px;
+    }
+
+
+    .news-link{
+        display: block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .agency-services-content-container{
+        display: none;
+    }
+
+    .agency-services a{
+        margin: 10px 0px;
+    }
+
+    .footer-text-xl{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-icon-link{
+    display: grid;
+    grid-auto-flow: column;    
+    gap: 10px;
+    
+    }
+
+
+    .footer-icon{
+        display: grid;
+        grid-auto-flow: row;
+        gap: 10px;
+    }
+
+    .video-2{
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+    }
+    
+    .sub-section-video{
+        position: relative;
+       
+    }
+
+    .btn-view-work{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    
 }
