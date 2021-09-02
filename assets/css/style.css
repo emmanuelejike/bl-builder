@@ -338,6 +338,11 @@ address{
         margin: 10x;
     }
 
+
+    .main-content-section-container{
+        margin-top: 50px;
+    }
+
     .news-link-content{
         padding: 20px;
     }
