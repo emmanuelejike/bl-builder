@@ -317,7 +317,11 @@ address{
     padding: 0px 7px;
 }
 
-@media screen and (max-width: 687px) {
+@media screen and (max-width: 768px) {
+    .sub-section{
+        width: 100%;
+    }
+
     .main-container{
         display: flex;
         flex-direction: column;
@@ -372,23 +376,24 @@ address{
         grid-auto-flow: row;
         gap: 10px;
     }
-
-    .video-2{
-        width: 100%;
-        z-index: -1;
-        position: absolute;
-    }
     
     .sub-section-video{
         position: relative;
+        height: 180px;
        
     }
 
     .btn-view-work{
         position: absolute;
-        top: 0;
+        top: -75;
+        padding: 2px 20px;
+        width: 80%;
+        margin: 0px 15px;
+        font-size: 20px;
         left: 0;
     }
+
+    
 
 
     
